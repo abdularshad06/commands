@@ -1,0 +1,3 @@
+Convert Text Row to Column:-
+
+awk ' BEGIN { ORS=" " } { print } ' file1.txt > output.txt
